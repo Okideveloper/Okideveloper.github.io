@@ -700,6 +700,12 @@ ul.social-buttons li a:hover {
 }
 
 /* About section*/
+
+.about-heading {
+  font-family: 'EB Garamond', serif;
+  font-size: 23px;
+  font-weight: 600;
+}
 .bg-about {
   background: #f0f0f0;
   padding: 3em;
@@ -708,3 +714,4 @@ ul.social-buttons li a:hover {
 .contact-border {
   border: 9px solid rgb(165, 59, 10);
 }
+
