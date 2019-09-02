@@ -36,8 +36,7 @@ h6 {
 }
 
 .page-section {
-  background-color: brown;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .page-section h2.section-heading {
@@ -96,6 +95,7 @@ img::-moz-selection {
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
+  color: rgba(0,0,0,.7);
 }
 
 .btn-primary:active,
@@ -187,8 +187,8 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: rgb(111, 0, 255);
-  background-image: url("american.jpeg");
+  color: white;
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -697,4 +697,14 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+/* About section*/
+.bg-about {
+  background: #f0f0f0;
+  padding: 3em;
+}
+
+.contact-border {
+  border: 9px solid rgb(165, 59, 10);
 }
